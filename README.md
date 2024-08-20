@@ -5,4 +5,5 @@ Este repositorio contiene las actividades realizadas en la clase de **Análisis 
 - Las carpetas que lleven por nombre Act_x.x (Ej: Act_1.1) son carpetas con actividades dejadas de tarea.
 - Las carpetas que lleven por nombre Ejem_x.x (Ej: Ejem_1.1) son carpetas con actividades hechas en clase pero que no son tarea, más bien una implementación de algún algoritmo visto en clase.
 - La carpeta _"Introduction to Algor"_ es una carpeta donde hay implementaciones de algoritmos básicos, como Binary Search, Insertion sort, etc.
+
 _NOTA: Si en dado caso hay una carpeta con el mismo número de actividad (Act_1.1a y Act_1.1b) siginifa que pertenecen a la misma actividad, pero fueron dos implementaciones diferentes._
