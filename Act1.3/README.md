@@ -1,0 +1,45 @@
+# Tic-Tac-Toe con IA usando Minimax y Poda Alfa-Beta
+
+Este proyecto implementa un juego de Tic-Tac-Toe (Tres en Raya) con una IA que utiliza el algoritmo Minimax con poda Alfa-Beta para tomar decisiones óptimas.
+
+## Requisitos
+
+- Python 3.x
+- Make (opcional, para usar el Makefile)
+
+## Instrucciones de uso
+
+1. Asegúrate de tener Python 3.x instalado en tu sistema.
+
+2. Clona o descarga este repositorio en tu máquina local.
+
+3. Abre una terminal y navega hasta el directorio del proyecto.
+
+4. Para ejecutar el juego, tienes dos opciones:
+
+   a. Usando Make:
+      ```
+      make
+      ```
+   
+   b. Directamente con Python:
+      ```
+      python3 tic_tac_toe.py
+      ```
+
+5. Sigue las instrucciones en pantalla para jugar contra la IA.
+
+## Notas
+
+- La IA utiliza el algoritmo Minimax con poda Alfa-Beta, por lo que jugará de manera óptima.
+- El mejor resultado al que puedes aspirar jugando contra la IA es un empate.
+
+## Limpieza
+
+Si deseas limpiar los archivos .pyc y directorios __pycache__ generados, puedes usar:
+
+```
+make clean
+```
+
+¡Disfruta el juego!
