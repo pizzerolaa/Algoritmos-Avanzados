@@ -30,6 +30,10 @@ Este proyecto implementa un juego de Gato o Tres en raya con una "IA" que utiliz
 
 5. Sigue las instrucciones en pantalla para jugar contra la IA.
 
+## Capturas
+![Captura de prueba de Juego](/Act1.3/gato.png)
+
+
 ## Notas
 
 - La IA utiliza el algoritmo Minimax con alpha-beta-pruning, por lo que jugará de manera óptima.
