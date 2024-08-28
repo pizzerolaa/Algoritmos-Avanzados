@@ -1,6 +1,7 @@
-# Tic-Tac-Toe con IA usando Minimax y Poda Alfa-Beta
+# Juego de Gato haciendo uso del algoritmo Minimax y optimizado con alpha-beta-pruning
+#### Fernando Antonio López García - A01643685
 
-Este proyecto implementa un juego de Tic-Tac-Toe (Tres en Raya) con una IA que utiliza el algoritmo Minimax con poda Alfa-Beta para tomar decisiones óptimas.
+Este proyecto implementa un juego de Gato o Tres en raya con una "IA" que utiliza el algoritmo Minimax con alpha-beta-pruning para tomar decisiones óptimas.
 
 ## Requisitos
 
@@ -31,7 +32,7 @@ Este proyecto implementa un juego de Tic-Tac-Toe (Tres en Raya) con una IA que u
 
 ## Notas
 
-- La IA utiliza el algoritmo Minimax con poda Alfa-Beta, por lo que jugará de manera óptima.
+- La IA utiliza el algoritmo Minimax con alpha-beta-pruning, por lo que jugará de manera óptima.
 - El mejor resultado al que puedes aspirar jugando contra la IA es un empate.
 
 ## Limpieza
