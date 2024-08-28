@@ -85,12 +85,12 @@ def bestMovement(board):
 
 def play():
     board = [['' for _ in range(3)] for _ in range(3)]
-    current_player = 'O'
+    currentPlayer = 'O'
 
     while True:
         printBoard(board)
 
-        if current_player == 'O':
+        if currentPlayer == 'O':
             row, column = playerMovement(board)
             board[row][column] = 'O'
             if winCheck(board, 'O'):
@@ -111,7 +111,7 @@ def play():
             print("Es un empate.")
             break
 
-        current_player = 'X' if current_player == 'O' else 'O'
+        currentPlayer = 'X' if currentPlayer == 'O' else 'O'
 
 if __name__ == "__main__":
     play()
