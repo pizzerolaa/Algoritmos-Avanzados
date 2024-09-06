@@ -1,3 +1,9 @@
+"""
+El programa analiza si el contenido de los archivos mcode1.txt, mcode2.txt y mcode3.txt están contenidos 
+en los archivos transmission1.txt y transmission2.txt y despliega un true o false si es que las secuencias de 
+chars están contenidas o no. En caso de ser true, muestra true, seguido de exactamente un espacio, seguido de 
+la posición en el archivo de transmissiónX.txt donde inicia el código de mcodeY.txt
+"""
 import os
 from readFile import readSingleFile
 from kmp_algorithm import kmpSearch
