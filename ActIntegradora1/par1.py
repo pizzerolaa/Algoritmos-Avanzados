@@ -5,8 +5,8 @@ from kmp_algorithm import kmpSearch
 def main():
     script = os.path.dirname(os.path.abspath(__file__))
 
-    transmissions = ["transmission1.txt", "transmission2.txt"]
-    mcodes = ["mcode1.txt", "mcode2.txt", "mcode3.txt"]
+    transmissions = ["files/transmission1.txt", "files/transmission2.txt"]
+    mcodes = ["files/mcode1.txt", "files/mcode2.txt", "files/mcode3.txt"]
 
     for tfile in transmissions:
         transmission_path = os.path.join(script, tfile)
