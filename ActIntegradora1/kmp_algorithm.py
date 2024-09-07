@@ -4,12 +4,16 @@ Este módulo contiene la implementación del algoritmo de búsqueda KMP (Knuth-M
 El algoritmo KMP se utiliza para buscar la ocurrencia de un patrón en un texto. Es eficiente y funciona en 
 tiempo lineal respecto al tamaño del texto y del patrón, gracias al uso del arreglo LPS (Longest Prefix Suffix).
 
-Func:
-- compLTSArr(pat: str) -> list[int]: Calcula el arreglo LPS para el patrón dado.
-- kmpSearch(pat: str, txt: str) -> tuple[bool, list[int]]: Busca todas las ocurrencias del patrón en el texto y 
-  devuelve si se encontró alguna ocurrencia junto con las posiciones.
+Funciones:
+----------
+- compLTSArr(pat: str) -> list[int]: 
+    Calcula el arreglo LPS para el patrón dado.
+- kmpSearch(pat: str, txt: str) -> tuple[bool, list[int]]: 
+    Busca todas las ocurrencias del patrón en el texto y
+    devuelve si se encontró alguna ocurrencia junto con las posiciones.
 
 Ejemplo de uso:
+---------------
     pattern = "ABC"
     text = "AABAACABACABABCAB"
     found, positions = kmpSearch(pattern, text)

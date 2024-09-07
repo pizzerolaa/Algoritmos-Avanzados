@@ -4,6 +4,7 @@ Aquí se ejucuta todo el programa.
 import os
 from readFile import readSingleFile
 from kmp_algorithm import kmpSearch
+from manachers_algorithm import findLPS
 
 def main():
     script = os.path.dirname(os.path.abspath(__file__))
@@ -15,7 +16,7 @@ def main():
         transmission_path = os.path.join(script, tfile)
         transmission_data = readSingleFile(transmission_path).replace("\n", "").replace("\r", "").strip()
 
-        print(f"Analizando {tfile}...")
+        print(f"\nAnalizando {tfile}...")
 
         for mfile in mcodes:
             mcode_path = os.path.join(script, mfile)
@@ -27,6 +28,13 @@ def main():
                 print(f"true {indices[0]} -> Patrón {mfile} encontrado en {tfile}")
             else:
                 print(f"false -> Patrón {mfile} no encontrado en {tfile}")
+        
+        print(f"Analizando LPS en {tfile}...")
+
+        start, end = findLPS(transmission_data)
+
+        print(f"{start}, {end}")
+
 
 if __name__ == "__main__":
     main()
